@@ -1,0 +1,71 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+/* Common */
+.wrapper {
+    width: 80%;
+    margin: auto;
+}
+
+/* Header */
+header > * {
+    margin: 20px 0;
+}
+.header-top {
+    height: 100px;
+    background-color: pink;
+}
+.header-bottom {
+    height: 400px;
+    background-color: burlywood;
+}
+
+/* Main */
+main {
+    background-color: blue;
+    margin-bottom: 10px;
+}
+
+/* Main Title */
+.main-title, .container {
+    background-color: cyan;
+    margin-bottom: 15px;
+}
+.main-title {
+    height: 80px;
+    width: 100%;
+}
+/* End Main Title */
+
+/* Content Main */
+.clearfix::after {   
+      content:"";
+      display: table;
+      clear: both;
+}
+.container {
+    float: left;
+    height: 400px;
+}
+.container-left {
+    width: 25%;
+}
+.container-center {
+    width: 48%;
+    margin: 0 1%;
+}
+.container-right {
+    width: 25%;
+}
+/* End Content Main */
+
+/* Footer */
+.page-end {
+    height: 40px;
+    width: 100%;
+    background-color: darkviolet;
+}
+/* End Footer */
