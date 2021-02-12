@@ -6,32 +6,33 @@ box-sizing: border-box;
 
 /* Common */
 .wrapper {
+    padding: 20px 0;
     width: 80%;
     margin: auto;
 }
 
 /* Header */
 header > * {
-    margin: 20px 0;
+    margin-bottom: 20px;
 }
 .header-top {
     height: 100px;
-    background-color: pink;
+    background-color: #e579e6;
 }
 .header-bottom {
     height: 400px;
-    background-color: burlywood;
+    background-color: #e1d67a;
 }
 
 /* Main */
 main {
-    background-color: blue;
+    background-color: #0186fe;
     margin-bottom: 10px;
 }
 
 /* Main Title */
 .main-title, .container {
-    background-color: cyan;
+    background-color: #abcfe7;
     margin-bottom: 15px;
 }
 .main-title {
@@ -51,14 +52,14 @@ main {
     height: 400px;
 }
 .container-left {
-    width: 25%;
+    width: 20%;
 }
 .container-center {
-    width: 48%;
+    width: 58%;
     margin: 0 1%;
 }
 .container-right {
-    width: 25%;
+    width: 20%;
 }
 /* End Content Main */
 
@@ -66,6 +67,6 @@ main {
 .page-end {
     height: 40px;
     width: 100%;
-    background-color: darkviolet;
+    background-color: #8801fe;
 }
 /* End Footer */
